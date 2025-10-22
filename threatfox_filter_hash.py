@@ -9,7 +9,7 @@ valid_hash_types = {
 
 # Charger le fichier JSON brut
 try:
-    with open("Import_IoC_Threatfox.json", "r", encoding="utf-8") as infile:
+    with open("Import_IoC_Threatfox.json", "r", encoding="utf-16") as infile:
         data = json.load(infile)
         print("Données chargées avec succès.")
 except FileNotFoundError:
